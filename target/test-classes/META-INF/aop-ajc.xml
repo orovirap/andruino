@@ -1,0 +1,33 @@
+<aspectj>
+<aspects>
+<aspect name="ad.uda.pfc.domain.PlacaArduinoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ad.uda.pfc.domain.PinArduinoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ad.uda.pfc.domain.PlacaArduinoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ad.uda.pfc.domain.TipusSensorIntegrationTest_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.CaracteristicaDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ad.uda.pfc.domain.CaracteristicaDataOnDemand_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.SensorIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ad.uda.pfc.domain.HabitacleIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ad.uda.pfc.domain.HabitacleIntegrationTest_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.PinArduinoIntegrationTest_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.MagnitudIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ad.uda.pfc.domain.MagnitudDataOnDemand_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.TipusSensorDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ad.uda.pfc.domain.PlacaArduinoDataOnDemand_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.MagnitudDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ad.uda.pfc.domain.HabitacleDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ad.uda.pfc.domain.PinArduinoDataOnDemand_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.TipusSensorIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ad.uda.pfc.domain.HabitacleDataOnDemand_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.TipusSensorDataOnDemand_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.CaracteristicaIntegrationTest_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.SensorDataOnDemand_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.SensorIntegrationTest_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.SensorDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="ad.uda.pfc.domain.MagnitudIntegrationTest_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.CaracteristicaIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="ad.uda.pfc.domain.PlacaArduinoIntegrationTest_Roo_Configurable"/>
+<aspect name="ad.uda.pfc.domain.PinArduinoIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,9 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-03-30 00:47:19
+project --topLevelPackage ad.uda.pfc --projectName andruino --java 6 --packaging WAR
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log closed at 2013-03-30 00:47:21
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2013-03-30 00:48:44
+jpa setup --database POSTGRES --provider HIBERNATE 
+database introspect --schema pfc_schema 
+database reverse engineer --schema pfc_schema --package ~.domain --testAutomatically
+web jsf setup --implementation APACHE_MYFACES --library PRIMEFACES 
+web jsf all --package ~.web
