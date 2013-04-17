@@ -4,11 +4,7 @@
 package ad.uda.pfc.domain;
 
 import ad.uda.pfc.domain.Sensor;
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.Table;
 
 privileged aspect Sensor_Roo_Jpa_Entity {
@@ -16,18 +12,5 @@ privileged aspect Sensor_Roo_Jpa_Entity {
     declare @type: Sensor: @Entity;
     
     declare @type: Sensor: @Table(schema = "pfc_schema", name = "sensor");
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
-    private Integer Sensor.id;
-    
-    public Integer Sensor.getId() {
-        return this.id;
-    }
-    
-    public void Sensor.setId(Integer id) {
-        this.id = id;
-    }
     
 }

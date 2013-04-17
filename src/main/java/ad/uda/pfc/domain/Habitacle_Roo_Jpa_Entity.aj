@@ -4,11 +4,7 @@
 package ad.uda.pfc.domain;
 
 import ad.uda.pfc.domain.Habitacle;
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.Table;
 
 privileged aspect Habitacle_Roo_Jpa_Entity {
@@ -16,18 +12,5 @@ privileged aspect Habitacle_Roo_Jpa_Entity {
     declare @type: Habitacle: @Entity;
     
     declare @type: Habitacle: @Table(schema = "pfc_schema", name = "habitacle");
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
-    private Integer Habitacle.id;
-    
-    public Integer Habitacle.getId() {
-        return this.id;
-    }
-    
-    public void Habitacle.setId(Integer id) {
-        this.id = id;
-    }
     
 }

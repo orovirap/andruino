@@ -4,11 +4,7 @@
 package ad.uda.pfc.domain;
 
 import ad.uda.pfc.domain.Caracteristica;
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.Table;
 
 privileged aspect Caracteristica_Roo_Jpa_Entity {
@@ -16,18 +12,5 @@ privileged aspect Caracteristica_Roo_Jpa_Entity {
     declare @type: Caracteristica: @Entity;
     
     declare @type: Caracteristica: @Table(schema = "pfc_schema", name = "caracteristica");
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
-    private Integer Caracteristica.id;
-    
-    public Integer Caracteristica.getId() {
-        return this.id;
-    }
-    
-    public void Caracteristica.setId(Integer id) {
-        this.id = id;
-    }
     
 }

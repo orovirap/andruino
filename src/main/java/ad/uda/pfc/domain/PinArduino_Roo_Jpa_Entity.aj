@@ -4,11 +4,7 @@
 package ad.uda.pfc.domain;
 
 import ad.uda.pfc.domain.PinArduino;
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.Table;
 
 privileged aspect PinArduino_Roo_Jpa_Entity {
@@ -16,18 +12,5 @@ privileged aspect PinArduino_Roo_Jpa_Entity {
     declare @type: PinArduino: @Entity;
     
     declare @type: PinArduino: @Table(schema = "pfc_schema", name = "pin_arduino");
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
-    private Integer PinArduino.id;
-    
-    public Integer PinArduino.getId() {
-        return this.id;
-    }
-    
-    public void PinArduino.setId(Integer id) {
-        this.id = id;
-    }
     
 }

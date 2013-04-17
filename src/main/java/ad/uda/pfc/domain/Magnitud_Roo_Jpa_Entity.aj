@@ -4,11 +4,7 @@
 package ad.uda.pfc.domain;
 
 import ad.uda.pfc.domain.Magnitud;
-import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.Table;
 
 privileged aspect Magnitud_Roo_Jpa_Entity {
@@ -16,18 +12,5 @@ privileged aspect Magnitud_Roo_Jpa_Entity {
     declare @type: Magnitud: @Entity;
     
     declare @type: Magnitud: @Table(schema = "pfc_schema", name = "magnitud");
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "id")
-    private Integer Magnitud.id;
-    
-    public Integer Magnitud.getId() {
-        return this.id;
-    }
-    
-    public void Magnitud.setId(Integer id) {
-        this.id = id;
-    }
     
 }
